@@ -12,7 +12,7 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "quarterly"
+      interval: "weekly"
     commit-message:
       prefix: "chore(deps)"
       include: "scope"
@@ -25,7 +25,7 @@ updates:
   - package-ecosystem: "uv"
     directory: "/scripts/aidlc-evaluator"
     schedule:
-      interval: "quarterly"
+      interval: "weekly"
     commit-message:
       prefix: "chore(deps)"
       prefix-development: "chore(deps-dev)"
@@ -52,7 +52,7 @@ updates:
   - package-ecosystem: "docker"
     directory: "/scripts/aidlc-evaluator/docker/sandbox"
     schedule:
-      interval: "quarterly"
+      interval: "weekly"
     commit-message:
       prefix: "chore(deps)"
       include: "scope"
