@@ -34,19 +34,6 @@ updates:
       evaluator-deps:
         patterns:
           - "*"
-        exclude-patterns:
-          - "pytest*"
-          - "ruff"
-          - "bandit"
-          - "semgrep"
-        dependency-type: "production"
-      evaluator-dev-deps:
-        patterns:
-          - "pytest*"
-          - "ruff"
-          - "bandit"
-          - "semgrep"
-        dependency-type: "development"
 
   # Docker — sandbox Dockerfile base image
   - package-ecosystem: "docker"
